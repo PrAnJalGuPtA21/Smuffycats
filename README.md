@@ -1,1 +1,1 @@
-# Tindogs
+# Smuffycats
