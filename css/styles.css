@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Aboreto', sans-serif; 
+    
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+
+
+h1{
+     font-family: 'Aboreto';
+     font-size: 3.5rem;
+     line-height: 1.5;
+     
+     
+}
+
+h2 {
+    font-family: 'Aboreto';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Aboreto';
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.space {
+    margin-top: 10px;
+}
+.container{
+    padding: 3% 15% 7%;
+}
+
+body{
+    font-family: 'Montserrat-black';
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.button {
+    margin: 5% 3% 5% 0%;
+}
+
+.image {
+    transform: rotate(25deg);
+    width: 10%;
+    position: absolute;
+    right: 40%;
+
+}
+
+.row {
+    padding-bottom: 10%;
+}
+
+#features{
+    padding: 10% 10% 15% 15% ;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.containers {
+    text-align: center;
+    padding: 5% ;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.custom {
+    color: #ef8172;
+}
+
+.custom:hover{
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #f67564;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media ( max-width: 1028px) {
+    .image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#title {
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+.cta-head {
+    font-family: monospace;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.icons {
+    margin: 20px 10px;
+    
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
